@@ -10,6 +10,9 @@ Web crawlers usually discover pages from links within the site and from other si
 
 <a href="http://www.sitemaps.org/protocol.html" title="Read more about the Sitemap protocol">Read more about the Sitemap protocol on sitemaps.org</a>.
 
+<h2>Installation</h2>
+Copy the files in the <b>application</b> folder into your CodeIgniter application folder. This includes the <b>model</b> file and an example <b>controller</b> file. Follow the instructions below on how to use the model in your own controller.
+
 <h2>Usage</h2>
 
 The model is designed to be called and controlled by a CodeIgniter controller. The model does not create and save an actual XML-file to be saved on the disk. Rather, it generates a valid XML-file upon each request and directly serves it to the controller and thus the client browser.
